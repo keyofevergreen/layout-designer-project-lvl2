@@ -1,0 +1,46 @@
+$dark-grey: #CACACA;
+$black: #08020D;
+$white: #fff;
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: $dark-grey;
+  background: $black;
+}
+
+h1 {
+  font: bold 60px/90px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: $white;
+}
+
+h2 {
+  font: bold 38px/57px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: $white;
+}

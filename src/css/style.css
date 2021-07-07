@@ -141,6 +141,7 @@ h2 {
 }
 
 .header-bc {
+  position: relative;
   background-image: url("../img/banner 1.png");
   background-position: center;
   background-size: cover;

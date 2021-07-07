@@ -1,9 +1,14 @@
 $dark-grey: #CACACA;
 $black: #08020D;
 $white: #fff;
+$orange: #F89202;
 
 .white {
   color: $white;
+}
+
+.orange {
+  color: $orange;
 }
 
 .container {
@@ -20,6 +25,10 @@ $white: #fff;
   margin-right: 91px;
 }
 
+.mr-50 {
+  margin-right: 50px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -28,8 +37,20 @@ $white: #fff;
   margin-bottom: 50px;
 }
 
+.mb-48 {
+  margin-bottom: 48px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .mb-64 {
@@ -42,6 +63,21 @@ $white: #fff;
 
 .flex {
   display: flex;
+}
+
+.logo{
+  &::before {
+    float: left;
+
+    width: 24px;
+    height: 24px;
+
+    margin-right: 16px;
+
+    background: no-repeat top/cover url(../img/logo1.png);
+
+    content: "";
+  }
 }
 
 .nav {
@@ -64,6 +100,7 @@ $white: #fff;
     margin: 0; 
     padding-left: 0; 
 
+    line-height: 1.6em;
   a {
     text-decoration: none;
     color: $dark-grey;
@@ -138,10 +175,10 @@ $white: #fff;
 .btn {
   display: inline-flex;
   justify-content: center;
-
   padding: 20px 30px;
 
   text-transform: uppercase;
+  text-decoration: none;
   color: #fff;
 
   border-radius: 5px;
@@ -204,7 +241,7 @@ $white: #fff;
 }
 
 main {
-  color: $black;
+  background: $black;
 }
 
 .pricing {
@@ -229,10 +266,6 @@ main {
     font-size: 24px;
 
     text-transform: uppercase;
-  }
-
-  a {
-    text-decoration: none;
   }
 }
 
@@ -290,4 +323,64 @@ main {
 .pricing-description {
   font-size: 16px;
   font-weight: 300;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.news-item {
+  text-align: start;
+}
+
+.news-body {
+  font-size: 16px;
+  h3 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+.news-author {
+  align-items: center;
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6em;
+  text-transform: uppercase;
+
+  &::before {
+    width: 19px;
+    height: 19px;
+
+    margin-right: 16px;
+
+    background: no-repeat top/cover url(../img/avatar1.png);
+
+    content: "";
+  }
+
+  &::after {
+    margin-left: 16px;
+
+    content: "17/01/2020"
+  }
+}
+
+.btn-to-the-album {
+  width: 75px;
+  height: 21;
+  padding: 16px 30px;
+
+  font-size: 12px;
+  line-height: 1.6em;
+  color: $dark-grey;
+
+
+  border: 1px solid #FFFFFF;
 }

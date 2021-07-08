@@ -33,6 +33,14 @@ $orange: #F89202;
   margin-top: 24px;
 }
 
+.mb-65 {
+  margin-bottom: 65px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -53,8 +61,8 @@ $orange: #F89202;
   margin-bottom: 24px;
 }
 
-.mb-64 {
-  margin-bottom: 64px;
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .pt-100 {
@@ -290,19 +298,19 @@ main {
 }
 
 .bg-free {
-  background-image: url('../img/Free Bg.png');
+  background-image: url('../img/FreeBg.png');
   background-position: center;
   background-size: cover;
 }
 
 .bg-standart {
-  background-image: url('../img/Standart Bg.png');
+  background-image: url('../img/StandartBg.png');
   background-position: center;
   background-size: cover;
 }
 
 .bg-premium {
-  background-image: url('../img/Premium Bg.png');
+  background-image: url('../img/PremiumBg.png');
   background-position: center;
   background-size: cover;
 }
@@ -366,10 +374,8 @@ main {
     content: "";
   }
 
-  &::after {
+  .date {
     margin-left: 16px;
-
-    content: "17/01/2020"
   }
 }
 

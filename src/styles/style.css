@@ -71,6 +71,18 @@ h2 {
   margin-top: 24px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-83 {
+  margin-bottom: 83px;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+
 .mb-65 {
   margin-bottom: 65px;
 }
@@ -104,7 +116,19 @@ h2 {
 }
 
 .pt-100 {
-  padding: 100px;
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-21 {
+  padding-bottom: 21px;
+}
+
+.pb-13 {
+  padding-bottom: 13px;
 }
 
 .flex {
@@ -135,7 +159,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.nav__menu {
+.nav__item-menu {
   list-style: none;
   gap: 24px;
   margin: 0;
@@ -143,12 +167,12 @@ h2 {
   line-height: 1.6em;
 }
 
-.nav__menu a {
+.nav__item-menu a {
   text-decoration: none;
   color: #CACACA;
 }
 
-.header-bc {
+.header-bg {
   position: relative;
   background-image: url("../img/banner 1.png");
   background-position: center;
@@ -213,7 +237,10 @@ h2 {
   color: #757575;
 }
 
-.full-width {
+.nav__item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -411,6 +438,10 @@ main {
   text-align: start;
 }
 
+.news-item h2 {
+  text-align: center;
+}
+
 .news-body {
   font-size: 16px;
 }
@@ -453,6 +484,100 @@ main {
   border: 1px solid #FFFFFF;
 }
 
+.mobile-app {
+  text-align: start;
+}
+
+.mobile-app h2 {
+  text-align: center;
+}
+
+.mobile-app__container {
+  gap: 144px;
+}
+
+.mobile-app__container p {
+  font-size: 16px;
+  width: 600px;
+}
+
+.mobile-app__container div {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.btn-download {
+  padding: 16px 40px;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 1.5em;
+  text-transform: none;
+  border-radius: 32px;
+  background: #95390C;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  font-size: 16px;
+  color: #E0E0E0;
+}
+
+footer h2 {
+  font: bold 18px/27px 'Roboto', sans-serif;
+}
+
+footer a {
+  color: #E0E0E0;
+  text-decoration: none;
+}
+
+.info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+  text-align: start;
+}
+
+.info__elem {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.info__elem-subscribe {
+  gap: 24px;
+}
+
+.border-line {
+  border-top: 1px solid #CACACA;
+}
+
+.footer-menu {
+  padding-top: 40px;
+  gap: 16px;
+}
+
 @media (max-width: 800px) {
   body {
     min-width: 414px;
@@ -471,7 +596,7 @@ main {
     text-transform: uppercase;
     color: #fff;
   }
-  .header-bc {
+  .header-bg {
     padding-top: 250px;
   }
   .nav {
@@ -494,7 +619,12 @@ main {
   .nav form {
     width: 100%;
   }
-  .nav__menu {
+  .nav__item {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .nav__item-menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -551,6 +681,9 @@ main {
     font-weight: 700;
     font-size: 16px;
   }
+  .news-item {
+    padding-bottom: 0;
+  }
   .news-item img {
     float: none;
     width: 374px;
@@ -562,5 +695,34 @@ main {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+  }
+  .mobile-app__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    gap: 16px;
+  }
+  .mobile-app__container p {
+    width: 100%;
+  }
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+  .footer-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }

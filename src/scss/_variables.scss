@@ -33,6 +33,18 @@ $orange: #F89202;
   margin-top: 24px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-83 {
+  margin-bottom: 83px;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+
 .mb-65 {
   margin-bottom: 65px;
 }
@@ -66,7 +78,19 @@ $orange: #F89202;
 }
 
 .pt-100 {
-  padding: 100px;
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-21 {
+  padding-bottom: 21px;
+}
+
+.pb-13 {
+  padding-bottom: 13px;
 }
 
 .flex {
@@ -101,7 +125,7 @@ $orange: #F89202;
   text-transform: uppercase;
 }
 
-.nav__menu {
+.nav__item-menu {
     list-style: none;
     gap: 24px;
     
@@ -114,7 +138,7 @@ $orange: #F89202;
     color: $dark-grey;
   }
 }
-.header-bc {
+.header-bg {
   position: relative;
   background-image: url('../img/banner 1.png');
   background-position: center;
@@ -167,7 +191,8 @@ $orange: #F89202;
   }
 }
 
-.full-width {
+.nav__item {
+  align-items: center;
   width: 100%;
 }
 
@@ -344,6 +369,10 @@ main {
 
 .news-item {
   text-align: start;
+
+  h2 {
+    text-align: center;
+  }
 }
 
 .news-body {
@@ -390,4 +419,91 @@ main {
 
 
   border: 1px solid #FFFFFF;
+}
+
+.mobile-app {
+  text-align: start;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.mobile-app__container {
+  gap: 144px;
+  p {
+    font-size: 16px;
+    width: 600px;
+  }
+  div {
+    align-self: center;
+  }
+}
+
+.btn-download {
+  padding: 16px 40px;
+
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 1.5em;
+  text-transform: none;
+
+  border-radius: 32px;
+
+  background: #95390C;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+
+  font-weight: 300;
+  font-size: 16px;
+  color:#E0E0E0;
+  
+  h2 {
+    font: bold 18px/27px 'Roboto', sans-serif;
+  }
+  
+  a {
+    color: #E0E0E0;
+    text-decoration: none;
+  }
+}
+
+.info {
+  justify-content: space-between;
+
+  gap: 40px;
+  text-align: start;
+}
+
+.info__elem {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.column {
+  flex-direction: column;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.info__elem-subscribe {
+  gap: 24px;
+}
+
+.border-line {
+  border-top: 1px solid #CACACA;
+}
+
+.footer-menu {
+  padding-top: 40px;
+  gap: 16px;
 }

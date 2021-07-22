@@ -201,8 +201,8 @@ h2 {
   background-image: url("../img/MortenHarket1.png");
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 223px;
 }
 
 .img-logo {
@@ -745,6 +745,9 @@ footer a {
   }
   .header-bg {
     padding-top: 250px;
+  }
+  .header-bg-artist {
+    padding-top: 225px;
   }
   .nav {
     -webkit-box-orient: vertical;

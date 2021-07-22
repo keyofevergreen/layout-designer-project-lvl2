@@ -71,6 +71,10 @@ h2 {
   margin-right: 50px;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mr-15 {
   margin-right: 15px;
 }
@@ -81,6 +85,10 @@ h2 {
 
 .mt-16 {
   margin-top: 16px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mb-83 {
@@ -154,9 +162,15 @@ h2 {
 }
 
 .logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 16px;
+}
+
+.logo img {
   width: 24px;
   height: 24px;
-  margin-right: 16px;
 }
 
 .nav {
@@ -569,6 +583,11 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 15px;
+  width: 100%;
+}
+
+.info__elem-menu {
+  list-style: none;
 }
 
 .bg-gradient {
@@ -591,7 +610,7 @@ main {
 }
 
 .border-line {
-  border-top: 1px solid #cacaca;
+  border-top: 2px solid #cacaca;
 }
 
 .footer-menu {
@@ -633,6 +652,16 @@ main {
           appearance: none;
 }
 
+.btn-music img {
+  width: 20px;
+  height: 20px;
+}
+
+.like img {
+  width: 20px;
+  height: 17.79px;
+}
+
 .purple {
   background: #5328a1;
 }
@@ -643,24 +672,6 @@ main {
 
 .player-buttons {
   gap: 1.5rem;
-}
-
-.btn-mix::before {
-  float: left;
-  width: 20px;
-  height: 20px;
-  margin-right: 16px;
-  background: no-repeat top/cover url(../img/play.png);
-  content: "";
-}
-
-.btn-favorites::before {
-  float: left;
-  width: 20px;
-  height: 17.79px;
-  margin-right: 16px;
-  background: no-repeat top/cover url(../img/like.png);
-  content: "";
 }
 
 .list-popular-tracks {
@@ -751,6 +762,9 @@ main {
   }
   .header-bg-artist {
     padding-top: 225px;
+  }
+  .logo {
+    float: left;
   }
   .nav {
     -webkit-box-orient: vertical;

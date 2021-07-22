@@ -142,4 +142,18 @@
 
     align-items: flex-start;
   }
+
+  .player-buttons {
+    flex-direction: column;
+  }
+
+  .list-popular-tracks {
+    flex-direction: column;
+
+    row-gap: 25px;
+  }
+
+  .popular-track {
+    width: 100%;
+  }
 }

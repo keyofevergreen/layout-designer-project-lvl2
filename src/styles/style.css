@@ -67,6 +67,10 @@ h2 {
   margin-right: 50px;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -175,6 +179,15 @@ h2 {
 .header-bg {
   position: relative;
   background-image: url("../img/banner 1.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.header-bg-artist {
+  position: relative;
+  background-image: url("../img/MortenHarket1.png");
   background-position: center;
   background-size: cover;
   padding-top: 200px;
@@ -578,6 +591,94 @@ footer a {
   gap: 16px;
 }
 
+.txt-align-left {
+  text-align: left;
+}
+
+.header-artist {
+  color: #fff;
+}
+
+.header-artist p {
+  font-size: 16px;
+}
+
+.btn-music {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  font-weight: 300;
+  font-size: 12.8px;
+}
+
+.purple {
+  background: #5328A1;
+}
+
+.red {
+  background: #95390C;
+}
+
+.player-buttons {
+  gap: 1.5rem;
+}
+
+.btn-mix::before {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  background: no-repeat top/cover url(../img/play.png);
+  content: "";
+}
+
+.btn-favorites::before {
+  float: left;
+  width: 20px;
+  height: 17.79px;
+  margin-right: 16px;
+  background: no-repeat top/cover url(../img/like.png);
+  content: "";
+}
+
+.list-popular-tracks {
+  gap: 25px 49px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.popular-track {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 47%;
+}
+
+.track-info {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-small {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.text-small h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase;
+}
+
 @media (max-width: 800px) {
   body {
     min-width: 414px;
@@ -724,5 +825,21 @@ footer a {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  .player-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .list-popular-tracks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 25px;
+  }
+  .popular-track {
+    width: 100%;
   }
 }

@@ -29,6 +29,10 @@ $orange: #F89202;
   margin-right: 50px;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -141,6 +145,16 @@ $orange: #F89202;
 .header-bg {
   position: relative;
   background-image: url('../img/banner 1.png');
+  background-position: center;
+  background-size: cover;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.header-bg-artist {
+  position: relative;
+  background-image: url('../img/MortenHarket1.png');
   background-position: center;
   background-size: cover;
 
@@ -506,4 +520,91 @@ footer {
 .footer-menu {
   padding-top: 40px;
   gap: 16px;
+}
+
+.txt-align-left {
+  text-align: left;
+}
+.header-artist {
+  color: $white;
+  p {
+    font-size: 16px;
+  }
+}
+
+.btn-music {
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 140px;
+
+  font-weight: 300;
+  font-size: 12.8px;
+}
+
+.purple {
+  background: #5328A1;
+}
+
+.red {
+  background: #95390C;
+}
+
+.player-buttons {
+  gap: 1.5rem;
+}
+
+.btn-mix {
+  &::before {
+    float: left;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 16px;
+
+    background: no-repeat top/cover url(../img/play.png);
+
+    content: "";
+  }
+}
+
+.btn-favorites {
+  &::before {
+    float: left;
+
+    width: 20px;
+    height: 17.79px;
+
+    margin-right: 16px;
+
+    background: no-repeat top/cover url(../img/like.png);
+
+    content: "";
+  }
+}
+
+.list-popular-tracks {
+  gap: 25px 49px;
+  flex-wrap: wrap;
+}
+
+.popular-track {
+  align-items: center;
+  width: 47%;
+}
+
+.track-info {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-small {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  h3 {
+    font-size: 12.8px;
+    line-height: 19.2px;
+    text-transform: uppercase;
+  }
 }

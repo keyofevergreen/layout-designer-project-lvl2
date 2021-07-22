@@ -77,6 +77,14 @@ $orange: #F89202;
   margin-bottom: 24px;
 }
 
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+.mb-17 {
+  margin-bottom: 17px;
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -110,7 +118,7 @@ $orange: #F89202;
 
     margin-right: 16px;
 
-    background: no-repeat top/cover url(../img/logo1.png);
+    background: no-repeat top/cover url(../img/logo.png);
 
     content: "";
   }
@@ -144,7 +152,7 @@ $orange: #F89202;
 }
 .header-bg {
   position: relative;
-  background-image: url('../img/banner 1.png');
+  background-image: url('../img/banner-header.png');
   background-position: center;
   background-size: cover;
 
@@ -412,7 +420,7 @@ main {
 
     margin-right: 16px;
 
-    background: no-repeat top/cover url(../img/avatar1.png);
+    background: no-repeat top/cover url(../img/avatar.png);
 
     content: "";
   }
@@ -525,6 +533,11 @@ footer {
 .txt-align-left {
   text-align: left;
 }
+
+.txt-align-center {
+  text-align: center;
+}
+
 .header-artist {
   color: $white;
   p {
@@ -602,9 +615,38 @@ footer {
 .text-small {
   font-size: 12.8px;
   line-height: 19.2px;
+  color: #E0E0E0;
+
   h3 {
     font-size: 12.8px;
     line-height: 19.2px;
     text-transform: uppercase;
+  }
+}
+
+.music-list {
+  flex-wrap: wrap;
+
+  gap: 25px 50px;
+}
+
+.music-list__elem {
+  flex-direction: column;
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.music-list__info {
+  color: #E0E0E0;
+  font-size: 16px;
+  line-height: 24px;
+
+  h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
   }
 }

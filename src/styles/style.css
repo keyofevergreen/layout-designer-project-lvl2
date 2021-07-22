@@ -139,6 +139,14 @@ h2 {
   margin-bottom: 16px;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-9 {
+  margin-bottom: 9px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -159,6 +167,12 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .logo {
@@ -615,6 +629,7 @@ main {
 
 .footer-menu {
   gap: 16px;
+  list-style: none;
   padding-top: 40px;
 }
 
@@ -888,6 +903,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    list-style: none;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;

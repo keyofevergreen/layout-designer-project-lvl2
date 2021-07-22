@@ -102,6 +102,14 @@ $orange: #f89202;
   margin-bottom: 16px;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-9 {
+  margin-bottom: 9px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -558,6 +566,7 @@ main {
 
 .footer-menu {
   gap: 16px;
+  list-style: none;
   padding-top: 40px;
 }
 
@@ -662,7 +671,6 @@ main {
   color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
-
   h3 {
     font-weight: bold;
     font-size: 18px;

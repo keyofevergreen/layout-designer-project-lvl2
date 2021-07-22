@@ -1,7 +1,7 @@
-$dark-grey: #CACACA;
-$black: #08020D;
+$dark-grey: #cacaca;
+$black: #08020d;
 $white: #fff;
-$orange: #F89202;
+$orange: #f89202;
 
 .orange {
   color: $orange;
@@ -18,6 +18,7 @@ $orange: #F89202;
 .container {
   max-width: 1200px;
   margin: 0 auto;
+
   text-align: center;
 }
 
@@ -113,7 +114,7 @@ $orange: #F89202;
   display: flex;
 }
 
-.logo{
+.logo {
   &::before {
     float: left;
 
@@ -131,8 +132,8 @@ $orange: #F89202;
 .nav {
   position: absolute;
   top: 25px;
-  left: 0;
   right: 0;
+  left: 0;
 
   align-items: center;
 
@@ -141,36 +142,60 @@ $orange: #F89202;
   text-transform: uppercase;
 }
 
-.nav__item-menu {
-    list-style: none;
-    gap: 24px;
-    
-    margin: 0; 
-    padding-left: 0; 
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 
-    line-height: 1.6em;
+  color: #e0e0e0;
+
+  font-weight: 300;
+  font-size: 16px;
+
+  h2 {
+    font: bold 18px/27px 'Roboto', sans-serif;
+  }
+
+  a {
+    color: #e0e0e0;
+    text-decoration: none;
+  }
+}
+
+.nav__item-menu {
+  gap: 24px;
+
+  margin: 0;
+  padding-left: 0;
+
+  line-height: 1.6em;
+
+  list-style: none;
+
   a {
     text-decoration: none;
   }
 }
+
 .header-bg {
   position: relative;
-  background-image: url('../img/banner-header.png');
-  background-position: center;
-  background-size: cover;
 
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-image: url('../img/banner-header.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .header-bg-artist {
   position: relative;
-  background-image: url('../img/MortenHarket1.png');
-  background-position: center;
-  background-size: cover;
 
   padding-top: 250px;
   padding-bottom: 223px;
+
+  background-image: url('../img/MortenHarket1.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .img-logo {
@@ -196,22 +221,22 @@ $orange: #F89202;
 
 .nav__search-form {
   input {
-    box-sizing:border-box;
-    padding: 5px 10px;
+    box-sizing: border-box;
 
     width: 248px;
     height: 25px;
+    padding: 5px 10px;
 
     border: 0;
     border-radius: 50px;
 
-    background: #3C3B3D;
+    background: #3c3b3d;
 
     &::placeholder {
+      color: #757575;
 
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #757575;
+      font-size: 13px;
+      text-transform: uppercase;
     }
   }
 }
@@ -224,9 +249,9 @@ $orange: #F89202;
 .description {
   flex-direction: flex-start;
   flex-wrap: nowrap;
+  justify-content: center;
 
   margin-top: 31px;
-  justify-content: center;
 
   font-size: 16px;
 }
@@ -236,11 +261,12 @@ $orange: #F89202;
   justify-content: center;
   padding: 20px 30px;
 
-  text-transform: uppercase;
-  text-decoration: none;
+  border-radius: 5px;
+
   color: #fff;
 
-  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
 
   cursor: pointer;
 }
@@ -249,38 +275,41 @@ $orange: #F89202;
   display: inline-flex;
   flex-wrap: wrap;
 
+  gap: 24px;
+
   justify-content: center;
 
-  gap: 24px;
-  margin-top: 17px;
-
   max-width: 570px;
+  margin-top: 17px;
 }
 
 .form__input {
   flex: 1 1 auto;
+
   input {
-    box-sizing:border-box;
-    
+    box-sizing: border-box;
+
     min-width: 272px;
     min-height: 50px;
 
     padding-left: 20px;
 
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+
+    color: #fff;
+
+    font-size: 18px;
+
     background-color: transparent;
 
-    border: 2px solid #CACACA;
-    border-radius: 3px;
-    
-    font-size: 18px;
-    color: #fff;
+    outline: none;
 
-    outline:none;
     &::placeholder {
+      color: #fff;
 
-    font-weight: 700;  
-    font-size: 14px;
-    color: #fff;
+      font-weight: 700;
+      font-size: 14px;
     }
   }
 }
@@ -289,10 +318,11 @@ $orange: #F89202;
   flex: 1 1 auto;
   height: 57px;
 
+  border: 0;
+
   font: normal 13px 'Arial', sans-serif;
 
-  border: 0;
-  background: #34C176;
+  background: #34c176;
 
   &:hover {
     background: #05aa52;
@@ -304,18 +334,18 @@ main {
 }
 
 .pricing {
-  justify-content: center;
-  gap: 46px;
-  flex-wrap: wrap;
   flex: 1 1 auto;
+  flex-wrap: wrap;
+  gap: 46px;
+  justify-content: center;
 }
 
 .pricing__item {
   height: 615px;
+  padding-right: 1.5rem;
 
   padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  
+
   border-radius: 1rem;
 
   h3 {
@@ -328,8 +358,6 @@ main {
   }
 }
 
-
-
 .pricing__item-container {
   width: 319px;
 
@@ -340,7 +368,7 @@ main {
   font-size: 64px;
   line-height: 1em;
   text-transform: uppercase;
-  
+
   span {
     font-size: 32px;
     vertical-align: text-top;
@@ -368,9 +396,9 @@ main {
 .btn-checkout {
   width: 257px;
 
-  font-weight: 300;
+  border: 1px solid #fff;
 
-  border: 1px solid #FFFFFF;
+  font-weight: 300;
 }
 
 .pricing__footer {
@@ -380,8 +408,8 @@ main {
 }
 
 .pricing-description {
-  font-size: 16px;
   font-weight: 300;
+  font-size: 16px;
 }
 
 .float-left {
@@ -402,6 +430,7 @@ main {
 
 .news-body {
   font-size: 16px;
+
   h3 {
     font-weight: normal;
     font-size: 30px;
@@ -438,12 +467,12 @@ main {
   height: 21;
   padding: 16px 30px;
 
-  font-size: 12px;
-  line-height: 1.6em;
+  border: 1px solid #fff;
+
   color: $dark-grey;
 
-
-  border: 1px solid #FFFFFF;
+  font-size: 12px;
+  line-height: 1.6em;
 }
 
 .mobile-app {
@@ -456,10 +485,13 @@ main {
 
 .mobile-app__container {
   gap: 144px;
+
   p {
-    font-size: 16px;
     width: 600px;
+
+    font-size: 16px;
   }
+
   div {
     align-self: center;
   }
@@ -468,38 +500,21 @@ main {
 .btn-download {
   padding: 16px 40px;
 
+  border-radius: 32px;
+
   font-weight: 300;
   font-size: 12.8px;
   line-height: 1.5em;
   text-transform: none;
 
-  border-radius: 32px;
-
-  background: #95390C;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-
-  font-weight: 300;
-  font-size: 16px;
-  color:#E0E0E0;
-  
-  h2 {
-    font: bold 18px/27px 'Roboto', sans-serif;
-  }
-  
-  a {
-    color: #E0E0E0;
-    text-decoration: none;
-  }
+  background: #95390c;
 }
 
 .info {
-  justify-content: space-between;
 
   gap: 40px;
+  justify-content: space-between;
+
   text-align: start;
 }
 
@@ -525,12 +540,12 @@ footer {
 }
 
 .border-line {
-  border-top: 1px solid #CACACA;
+  border-top: 1px solid #cacaca;
 }
 
 .footer-menu {
-  padding-top: 40px;
   gap: 16px;
+  padding-top: 40px;
 }
 
 .txt-align-left {
@@ -543,27 +558,29 @@ footer {
 
 .header-artist {
   color: $white;
+
   p {
     font-size: 16px;
   }
 }
 
 .btn-music {
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
 
   width: 140px;
 
   font-weight: 300;
   font-size: 12.8px;
+  line-height: 19.2px;
 }
 
 .purple {
-  background: #5328A1;
+  background: #5328a1;
 }
 
 .red {
-  background: #95390C;
+  background: #95390c;
 }
 
 .player-buttons {
@@ -601,8 +618,8 @@ footer {
 }
 
 .list-popular-tracks {
-  gap: 25px 49px;
   flex-wrap: wrap;
+  gap: 25px 49px;
 }
 
 .popular-track {
@@ -616,9 +633,9 @@ footer {
 }
 
 .text-small {
+  color: #e0e0e0;
   font-size: 12.8px;
   line-height: 19.2px;
-  color: #E0E0E0;
 
   h3 {
     font-size: 12.8px;
@@ -643,11 +660,11 @@ footer {
 }
 
 .music-list__info {
-  color: #E0E0E0;
+  color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
 
-  h3{
+  h3 {
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;

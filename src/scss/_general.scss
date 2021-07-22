@@ -1,22 +1,22 @@
-$dark-grey: #CACACA;
-$black: #08020D;
+$dark-grey: #cacaca;
+$black: #08020d;
 $white: #fff;
 
 @font-face {
-  font-family: 'Roboto';
   font-weight: 300;
+  font-family: 'Roboto';
   src: url(../fonts/Roboto-Light.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto';
   font-weight: 400;
+  font-family: 'Roboto';
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto';
   font-weight: 700;
+  font-family: 'Roboto';
   src: url(../fonts/Roboto-Bold.ttf);
 }
 
@@ -26,21 +26,23 @@ $white: #fff;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  color: $dark-grey;
+
   font-size: 18px;
   line-height: 1.5em;
-  color: $dark-grey;
+  font-family: 'Roboto', sans-serif;
+
   background: $black;
 }
 
 h1 {
+  color: $white;
   font: bold 60px/90px 'Roboto', sans-serif;
   text-transform: uppercase;
-  color: $white;
 }
 
 h2 {
+  color: $white;
   font: bold 38px/57px 'Roboto', sans-serif;
   text-transform: uppercase;
-  color: $white;
 }

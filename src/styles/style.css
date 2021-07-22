@@ -41,12 +41,16 @@ h2 {
   color: #fff;
 }
 
+.orange {
+  color: #F89202;
+}
+
 .white {
   color: #fff;
 }
 
-.orange {
-  color: #F89202;
+.grey {
+  color: #CACACA;
 }
 
 .container {
@@ -181,7 +185,6 @@ h2 {
 
 .nav__item-menu a {
   text-decoration: none;
-  color: #CACACA;
 }
 
 .header-bg {

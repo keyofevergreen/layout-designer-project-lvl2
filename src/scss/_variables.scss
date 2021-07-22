@@ -3,12 +3,16 @@ $black: #08020D;
 $white: #fff;
 $orange: #F89202;
 
+.orange {
+  color: $orange;
+}
+
 .white {
   color: $white;
 }
 
-.orange {
-  color: $orange;
+.grey {
+  color: $dark-grey;
 }
 
 .container {
@@ -147,7 +151,6 @@ $orange: #F89202;
     line-height: 1.6em;
   a {
     text-decoration: none;
-    color: $dark-grey;
   }
 }
 .header-bg {

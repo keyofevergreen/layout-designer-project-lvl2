@@ -102,22 +102,16 @@
     padding-top: 15px;
   }
 
-  .news-item {
-    padding-bottom: 0;
+  .news {
+    flex-direction: column;
+  }
 
-    img {
-      float: none;
-
-      width: 374px;
-      height: 186px;
-
-      margin-right: 0;
-    }
+  .reverse {
+    flex-direction: column;
   }
 
   .news-body {
     h3 {
-      margin-top: 45px;
       margin-bottom: 16px;
 
       font-weight: normal;
@@ -130,7 +124,7 @@
   .mobile-app__container {
     flex-direction: column-reverse;
 
-    gap: 8px;
+    gap: 0;
     align-self: flex-start;
 
     p {

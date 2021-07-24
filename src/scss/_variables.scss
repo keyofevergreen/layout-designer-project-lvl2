@@ -381,7 +381,7 @@ main {
   flex: 1 1 auto;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 4px;
 }
 
 .pricing__item {
@@ -475,12 +475,8 @@ main {
   float: right;
 }
 
-.news-item {
-  text-align: start;
-
-  h2 {
-    text-align: center;
-  }
+.news {
+  gap: 50px;
 }
 
 .news-body {
@@ -518,6 +514,10 @@ main {
   .date {
     margin-left: 16px;
   }
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
 
 .btn-to-the-album {

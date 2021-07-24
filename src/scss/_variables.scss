@@ -262,16 +262,16 @@ footer {
 }
 
 .header-form {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .form__input {
-  flex: 1 1 auto;
   justify-content: space-between;
+  width: 100%;
   input {
     box-sizing: border-box;
 
-    min-width: 272px;
+    min-width: 273px;
     min-height: 50px;
 
     padding-left: 20px;
@@ -415,10 +415,11 @@ main {
 
   span {
     font-size: 32px;
-    vertical-align: text-top;
+    line-height: 48px;
+    vertical-align: top;
   }
 
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .bg-free {
@@ -450,7 +451,8 @@ main {
 
 .pricing__footer {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 12.8px;
+  line-height: 19.2px;
   text-align: center;
 }
 

@@ -297,22 +297,20 @@ footer a {
 }
 
 .header-form {
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .form__input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
 }
 
 .form__input input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  min-width: 272px;
+  min-width: 273px;
   min-height: 50px;
   padding-left: 20px;
   border: 2px solid #cacaca;
@@ -480,12 +478,13 @@ main {
   font-size: 64px;
   line-height: 1em;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .pricing__value span {
   font-size: 32px;
-  vertical-align: text-top;
+  line-height: 48px;
+  vertical-align: top;
 }
 
 .bg-free {
@@ -515,7 +514,8 @@ main {
 
 .pricing__footer {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 12.8px;
+  line-height: 19.2px;
   text-align: center;
 }
 
@@ -862,6 +862,9 @@ main {
     margin-top: 48px;
   }
   .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

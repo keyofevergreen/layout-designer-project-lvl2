@@ -36,11 +36,11 @@
     }
   }
 
-  .nav__item {
+  .nav-item {
     align-items: flex-start;
   }
 
-  .nav__item-menu {
+  .nav-item-menu {
     flex-direction: column;
     gap: 0;
 
@@ -51,7 +51,7 @@
     text-align: left;
   }
 
-  .nav__search-form {
+  .nav-search-form {
     width: 100%;
   }
 
@@ -70,7 +70,7 @@
     max-width: 100%;
   }
 
-  .form__input {
+  .form-input {
     flex-direction: column;
     gap: 24px;
 
@@ -87,7 +87,7 @@
     align-items: center;
   }
 
-  .pricing__item {
+  .pricing-item {
     max-width: 374px;
 
     h3 {
@@ -97,7 +97,7 @@
     }
   }
 
-  .pricing__item-container {
+  .pricing-item-container {
     padding-top: 15px;
   }
 
@@ -125,7 +125,7 @@
     }
   }
 
-  .mobile-app__container {
+  .mobile-app-container {
     flex-direction: column-reverse;
 
     gap: 0;
@@ -146,7 +146,7 @@
     gap: 30px;
   }
 
-  .info__elem {
+  .info-elem {
     width: auto;
   }
 
@@ -178,7 +178,7 @@
     width: 100%;
   }
 
-  .music-list__elem {
+  .music-list-elem {
     width: 138px;
 
     img {

@@ -18,6 +18,8 @@ $orange: #f89202;
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 
   text-align: center;
 }
@@ -40,6 +42,10 @@ $orange: #f89202;
 
 .mr-15 {
   margin-right: 15px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .mt-24 {
@@ -114,6 +120,10 @@ $orange: #f89202;
   padding-top: 100px;
 }
 
+.pt-24 {
+  padding-top: 24px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -138,7 +148,7 @@ $orange: #f89202;
   display: inline-flex;
   gap: 16px;
   align-items: center;
-
+  line-height: 16.5px;
   img {
     width: 24px;
     height: 24px;
@@ -160,8 +170,6 @@ $orange: #f89202;
 }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
 
   color: #e0e0e0;
 
@@ -169,14 +177,20 @@ footer {
   font-size: 16px;
   line-height: 24px;
 
-  h2 {
-    font: bold 18px/27px 'Roboto', sans-serif;
-  }
-
   a {
     color: #e0e0e0;
     text-decoration: none;
   }
+}
+
+.top-footer {
+  padding-top: 62px;
+  padding-bottom: 72px;
+}
+
+.bottom-footer {
+  padding-top: 40px;
+  padding-bottom: 48px;
 }
 
 .nav__item-menu {
@@ -271,12 +285,13 @@ footer {
 .nav__search-form {
   box-sizing: border-box;
 
-  width: 248px;
+  width: 308px;
   max-width: 570px;
   height: 25px;
   padding: 5px 10px;
 
-  border: 2px solid #3c3b3d;
+  border: none;
+  outline: none;
   border-radius: 50px;
 
   background: #3c3b3d;
@@ -352,8 +367,7 @@ main {
 .pricing {
   flex: 1 1 auto;
   flex-wrap: wrap;
-  gap: 46px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .pricing__item {
@@ -540,6 +554,11 @@ main {
   flex-direction: column;
   gap: 15px;
   width: 100%;
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
 
 .info__elem-menu {
@@ -572,7 +591,6 @@ main {
 
 .footer-menu {
   gap: 16px;
-  padding-top: 40px;
 
   list-style: none;
 }

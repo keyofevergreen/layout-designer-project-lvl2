@@ -1,11 +1,7 @@
+
 @media (max-width: 800px) {
   body {
     min-width: 414px;
-  }
-
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 
   h1 {
@@ -20,17 +16,13 @@
     text-transform: uppercase;
   }
 
-  .header-bg {
-    padding-top: 200px;
-  }
-
   .header-bg-artist {
     padding-top: 200px;
   }
 
   .nav {
     flex-direction: column;
-    gap: 15px;
+    gap: 17px;
     align-items: flex-start;
 
     font-weight: 700;
@@ -50,11 +42,10 @@
 
   .nav__item-menu {
     flex-direction: column;
-    gap: 0;
+    gap: 3px;
 
-    padding-top: 18px;
-
-    line-height: 1.5em;
+    margin-top: 17px;
+    line-height: 13px;
 
     text-align: left;
   }
@@ -138,8 +129,6 @@
     flex-direction: column;
 
     gap: 30px;
-
-    margin-bottom: 75px;
   }
 
   .info__elem {

@@ -28,7 +28,7 @@
       <label for="search" class="sr-only">Поиск по сайту</label>
       <input name="search" type="text" placeholder="Поиск..." class="nav__search-form">
     </nav>
-    <header class="container">
+    <header class="container mt-50">
       <h1>Онлайн музыка где угодно</h1>
       <h2>Без ограничений</h2>
       <p class="description white">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки
@@ -42,7 +42,7 @@
           <label for="mail" class="sr-only">Почта</label>
           <input name="mail" type="email" placeholder="Email">
         </form>
-        <button type="submit" class="btn form__btn">Получить доступ</button>
+        <input type="submit" class="btn form__btn" value="Получить доступ">
       </div>
     </header>
   </main>
@@ -51,8 +51,8 @@
       <h2 class="mb-50">Формы подписки</h2>
       <div class="flex pricing white mb-50">
         <div class="pricing__item bg-free">
-          <div class="pricing__item-container">
-            <h3 class="mt-24">Бесплатная</h3>
+          <div class="pricing__item-container pt-24">
+            <h3>Бесплатная</h3>
             <p class="pricing__value mb-40">0<span class="ml-16">руб.</span></p>
             <a href="#" class="btn btn-checkout mb-64">Оформить</a>
             <p class="pricing__footer">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки.
@@ -60,8 +60,8 @@
           </div>
         </div>
         <div class="pricing__item bg-standart">
-          <div class="pricing__item-container">
-            <h3 class="mt-24">Стандартная</h3>
+          <div class="pricing__item-container pt-24">
+            <h3>Стандартная</h3>
             <p class="pricing__value mb-40">250<span class="ml-16">руб.</span></p>
             <a href="#" class="btn btn-checkout mb-64">Оформить</a>
             <p class="pricing__footer">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в
@@ -69,12 +69,14 @@
           </div>
         </div>
         <div class="pricing__item bg-premium">
-          <div class="pricing__item-container">
-            <h3 class="mt-24">Премиум</h3>
-            <p class="pricing__value mb-40">500<span class="ml-16">руб.</span></p>
-            <a href="#" class="btn btn-checkout mb-64">Оформить</a>
-            <p class="pricing__footer">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в
-              высоком качестве</p>
+          <div class="pricing__item-container pt-24">
+            <div class="pricing__item-container ">
+              <h3>Премиум</h3>
+              <p class="pricing__value mb-40">500<span class="ml-16">руб.</span></p>
+              <a href="#" class="btn btn-checkout mb-64">Оформить</a>
+              <p class="pricing__footer">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в
+                высоком качестве</p>
+            </div>
           </div>
         </div>
       </div>
@@ -138,7 +140,7 @@
     </div>
   </section>
   <footer class="bg-gradient">
-    <div class="flex info container mb-72">
+    <div class="flex info container top-footer">
       <div class="flex info__elem">
         <h2>О нас</h2>
         <ul class="flex column info__elem-menu">
@@ -165,7 +167,7 @@
           <a href="tel:+74999999999">+ 7 499 999 99 99</a>
         </div>
       </div>
-      <div class="flex info__elem gap-20 ">
+      <div class="flex info__elem">
         <h2>Подписывайтесь</h2>
         <div class="flex info__elem-subscribe">
           <a href=""><img src="img/socialNetwork/Google+.svg" alt="Подписывайтесь в Google+"></a>
@@ -176,7 +178,7 @@
       </div>
     </div>
     <div class="border-line"></div>
-    <div class="container txt-align-left">
+    <div class="container txt-align-left bottom-footer">
       <div class="inline-flex footer-menu">
         <a href="#">Магазин</a>
         <a href="#">Обслуживание</a>

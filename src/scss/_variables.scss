@@ -106,8 +106,8 @@ $orange: #f89202;
   margin-bottom: 12px;
 }
 
-.mb-9 {
-  margin-bottom: 9px;
+.mb-11 {
+  margin-bottom: 11px;
 }
 
 .pt-100 {
@@ -136,8 +136,8 @@ $orange: #f89202;
 
 .logo {
   display: inline-flex;
-
   gap: 16px;
+  align-items: center;
 
   img {
     width: 24px;
@@ -155,6 +155,7 @@ $orange: #f89202;
 
   font-weight: 400;
   font-size: 11px;
+  line-height: 12.89px;
   text-transform: uppercase;
 }
 
@@ -166,6 +167,7 @@ footer {
 
   font-weight: 300;
   font-size: 16px;
+  line-height: 24px;
 
   h2 {
     font: bold 18px/27px 'Roboto', sans-serif;
@@ -558,6 +560,9 @@ main {
 
 .info__elem-subscribe {
   gap: 24px;
+  a {
+    margin: auto 0;
+  }
 }
 
 .border-line {
@@ -566,8 +571,8 @@ main {
 
 .footer-menu {
   gap: 16px;
-  list-style: none;
   padding-top: 40px;
+  list-style: none;
 }
 
 .txt-align-left {
@@ -671,6 +676,7 @@ main {
   color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
+
   h3 {
     font-weight: bold;
     font-size: 18px;

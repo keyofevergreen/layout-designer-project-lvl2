@@ -15,7 +15,7 @@
     <nav class="flex nav space-between container">
       <div class="flex nav__item">
         <div class="logo">
-          <img src="img/logo.png" alt="Music Box Logo">
+          <img src="img/logo.svg" alt="Music Box Logo">
           <span class="flex white mr-91">Music Box</span>
         </div>
         <ul class="flex nav__item-menu">
@@ -36,11 +36,11 @@
       <p class="mb-48">24 875 поклонников</p>
       <div class="flex player-buttons">
         <button class="btn btn-music purple">
-          <img src="img/play.png" alt="Микс" class="mr-16">
+          <img src="img/play.svg" alt="Микс" class="mr-16">
           Микс
         </button>
         <button class="btn btn-music red like">
-          <img src="img/like.png" alt="Добавить в избранное" class="mr-16">
+          <img src="img/like.svg" alt="Добавить в избранное" class="mr-16">
           В избранное
         </button>
       </div>
@@ -115,46 +115,47 @@
     </div>
   </section>
 
-  <section id="page-discography" class="container txt-align-left pt-100">
-    <h2 class="mb-48">Дискография</h2>
-    <div class="flex music-list">
+  <section id="page-discography" class="pt-100">
+    <h2 class="txt-align-left container mb-48">Дискография</h2>
+    <div class="txt-align-left flex music-list container">
       <article class="music-list__elem">
-        <img src="img/discography/Brother.png" alt="Альбом Morten Harket - Brother" class="mb-9">
+        <img src="img/discography/Brother.png" alt="Альбом Morten Harket - Brother" class="mb-11">
         <div class="music-list__info">
           <h3 class="white">Brother</h3>
           <p>2014</p>
         </div>
       </article>
       <article class="music-list__elem">
-        <img src="img/discography/OutOfMyHands.png" alt="Альбом Morten Harket - Out Of My Hands" class="mb-9">
+        <img src="img/discography/OutOfMyHands.png" alt="Альбом Morten Harket - Out Of My Hands" class="mb-11">
         <div class="music-list__info">
           <h3 class="white">Out Of My Hands</h3>
           <p>2012</p>
         </div>
       </article>
       <article class="music-list__elem">
-        <img src="img/discography/LetterFromEgypt.png" alt="Альбом Morten Harket - Letter From Egypt" class="mb-9">
+        <img src="img/discography/LetterFromEgypt.png" alt="Альбом Morten Harket - Letter From Egypt" class="mb-11">
         <div class="music-list__info">
           <h3 class="white">Letter From Egypt</h3>
           <p>2008</p>
         </div>
       </article>
       <article class="music-list__elem">
-        <img src="img/discography/VogtsVills.png" alt="Альбом Morten Harket - Vogts Vills" class="mb-9">
+        <img src="img/discography/VogtsVills.png" alt="Альбом Morten Harket - Vogts Vills" class="mb-11">
         <div class="music-list__info">
           <h3 class="white">Vogts Vills</h3>
           <p>1996</p>
         </div>
       </article>
       <article class="music-list__elem">
-        <img src="img/discography/WildSeed.png" alt="Альбом Morten Harket - Wild Seed" class="mb-9">
+        <img src="img/discography/WildSeed.png" alt="Альбом Morten Harket - Wild Seed" class="mb-11">
         <div class="music-list__info">
           <h3 class="white">Wild Seed</h3>
           <p>1995</p>
         </div>
       </article>
       <article class="music-list__elem">
-        <img src="img/discography/PoetenesEvangelium.png" alt="Альбом Morten Harket - Poetenes Evangelium" class="mb-9">
+        <img src="img/discography/PoetenesEvangelium.png" alt="Альбом Morten Harket - Poetenes Evangelium"
+          class="mb-11">
         <div class="music-list__info">
           <h3 class="white">Poetenes Evangelium</h3>
           <p>1993</p>
@@ -163,9 +164,9 @@
     </div>
   </section>
 
-  <section id="page-similar" class="txt-align-left container pt-100 mb-100">
-    <h2 class="mb-48">Популярные треки</h2>
-    <div class="flex music-list">
+  <section id="page-similar" class="pt-100 mb-100">
+    <h2 class="txt-align-left container mb-48">Популярные треки</h2>
+    <div class="flex music-list container">
       <article class="music-list__elem">
         <img src="img/artists/A-ha.png" alt="Исполнитель A-Ha" class="mb-12">
         <div class="music-list__info txt-align-center">
@@ -228,49 +229,59 @@
     <div class="flex info container mb-72">
       <div class="flex info__elem">
         <h2>О нас</h2>
-        <div class="flex column">
-          <a href="#">История компании</a>
-          <a href="#">Карьера</a>
-          <a href="#">Особенности</a>
-          <a href="#">Пресса</a>
-        </div>
+        <ul class="flex column info__elem-menu">
+          <li><a href="#">История компании</a></li>
+          <li><a href="#">Карьера</a></li>
+          <li><a href="#">Особенности</a></li>
+          <li><a href="#">Пресса</a></li>
+        </ul>
       </div>
       <div class="flex info__elem">
         <h2>Поддержка</h2>
-        <div class="flex column">
-          <a href="#">База знаний</a>
-          <a href="#">Тарифы</a>
-          <a href="#">Мобильное приложение</a>
-          <a href="#">Условия использования</a>
-        </div>
+        <ul class="flex column info__elem-menu">
+          <li><a href="#">База знаний</a></li>
+          <li><a href="#">Тарифы</a></li>
+          <li><a href="#">Мобильное приложение</a></li>
+          <li><a href="#">Условия использования</a></li>
+        </ul>
       </div>
       <div class="flex info__elem">
         <h2>Контакты</h2>
-        <div class="flex column">
+        <div>
           <a href="mailto:hello@music.box?subject=Вопрос&nbsp;по&nbsp;сервису&nbsp;Music&nbsp;Box">hello@music.box</a>
-          <a href="#">Russia, Moscow. Music Box studio</a>
+          <p href="#">Russia, Moscow. Music Box studio</p>
           <a href="tel:+74999999999">+ 7 499 999 99 99</a>
         </div>
       </div>
       <div class="flex info__elem gap-20 ">
         <h2>Подписывайтесь</h2>
         <div class="flex info__elem-subscribe">
-          <img src="img/socialNetwork/Google+.png" alt="Подписывайтесь в Google+">
-          <img src="img/socialNetwork/Twitter.png" alt="Подписывайтесь в Twitter">
-          <img src="img/socialNetwork/Facebook.png" alt="Подписывайтесь в Facebook">
-          <img src="img/socialNetwork/Instagram.png" alt="Подписывайтесь в Instagram">
+          <a href=""><img src="img/socialNetwork/Google+.svg" alt="Подписывайтесь в Google+"></a>
+          <a href=""><img src="img/socialNetwork/Twitter.svg" alt="Подписывайтесь в Twitter"></a>
+          <a href=""><img src="img/socialNetwork/Facebook.svg" alt="Подписывайтесь в Facebook"></a>
+          <a href=""><img src="img/socialNetwork/Instagram.svg" alt="Подписывайтесь в Instagram"></a>
         </div>
       </div>
     </div>
     <div class="border-line"></div>
     <div class="container">
-      <div class="flex footer-menu">
-        <a href="#">Магазин</a>
-        <a href="#">Обслуживание</a>
-        <a href="#">Блог</a>
-        <a href="#">Поддержка</a>
-        <a href="#">Контакты</a>
-      </div>
+      <ul class="flex footer-menu">
+        <li>
+          <a href="#">Магазин</a>
+        </li>
+        <li>
+          <a href="#">Обслуживание</a>
+        </li>
+        <li>
+          <a href="#">Блог</a>
+        </li>
+        <li>
+          <a href="#">Поддержка</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
     </div>
   </footer>
 </body>

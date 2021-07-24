@@ -28,13 +28,9 @@
     padding-top: 225px;
   }
 
-  .logo {
-    float: left;
-  }
-
   .nav {
     flex-direction: column;
-    gap: 18px;
+    gap: 15px;
     align-items: flex-start;
 
     font-weight: 700;
@@ -78,6 +74,7 @@
     margin-top: 16px;
 
     font-size: 16px;
+    line-height: 24px;
   }
 
   .form {
@@ -152,10 +149,18 @@
     margin-bottom: 75px;
   }
 
+  .info__elem {
+    width: auto;
+  }
+
   .footer-menu {
     flex-direction: column;
-    list-style: none;
     align-items: flex-start;
+    width: 100%;
+
+    a {
+      width: 100%;
+    }
   }
 
   .player-buttons {

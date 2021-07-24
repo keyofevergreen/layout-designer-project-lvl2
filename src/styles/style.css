@@ -143,8 +143,8 @@ h2 {
   margin-bottom: 12px;
 }
 
-.mb-9 {
-  margin-bottom: 9px;
+.mb-11 {
+  margin-bottom: 11px;
 }
 
 .pt-100 {
@@ -180,6 +180,9 @@ h2 {
   display: -ms-inline-flexbox;
   display: inline-flex;
   gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo img {
@@ -197,6 +200,7 @@ h2 {
           align-items: center;
   font-weight: 400;
   font-size: 11px;
+  line-height: 12.89px;
   text-transform: uppercase;
 }
 
@@ -206,6 +210,7 @@ footer {
   color: #e0e0e0;
   font-weight: 300;
   font-size: 16px;
+  line-height: 24px;
 }
 
 footer h2 {
@@ -623,14 +628,18 @@ main {
   gap: 24px;
 }
 
+.info__elem-subscribe a {
+  margin: auto 0;
+}
+
 .border-line {
   border-top: 2px solid #cacaca;
 }
 
 .footer-menu {
   gap: 16px;
-  list-style: none;
   padding-top: 40px;
+  list-style: none;
 }
 
 .txt-align-left {
@@ -778,15 +787,12 @@ main {
   .header-bg-artist {
     padding-top: 225px;
   }
-  .logo {
-    float: left;
-  }
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 18px;
+    gap: 15px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -829,6 +835,7 @@ main {
     width: 100%;
     margin-top: 16px;
     font-size: 16px;
+    line-height: 24px;
   }
   .form {
     display: -webkit-box;
@@ -898,15 +905,21 @@ main {
     gap: 30px;
     margin-bottom: 75px;
   }
+  .info__elem {
+    width: auto;
+  }
   .footer-menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    list-style: none;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    width: 100%;
+  }
+  .footer-menu a {
+    width: 100%;
   }
   .player-buttons {
     -webkit-box-orient: vertical;

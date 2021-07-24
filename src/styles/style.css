@@ -451,7 +451,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 43px;
+  margin-bottom: 40px;
 }
 
 .pricing__item {
@@ -544,6 +544,7 @@ main {
 
 .news-body {
   font-size: 16px;
+  line-height: 24px;
 }
 
 .news-body h3 {
@@ -924,10 +925,10 @@ main {
   }
   .news-body h3 {
     margin-top: 45px;
+    margin-bottom: 16px;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 16px;
     text-transform: capitalize;
   }
   .mobile-app__container {
@@ -935,7 +936,7 @@ main {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    gap: 16px;
+    gap: 8px;
     -ms-flex-item-align: start;
         align-self: flex-start;
   }

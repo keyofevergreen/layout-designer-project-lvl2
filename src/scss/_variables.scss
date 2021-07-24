@@ -491,6 +491,7 @@ main {
     font-size: 30px;
     line-height: 45px;
     text-transform: capitalize;
+    margin-bottom: 30px;
   }
 }
 
@@ -553,6 +554,11 @@ main {
     align-self: flex-start;
     margin-top: 16px;
   }
+}
+
+.mobile-img {
+  width: 333px;
+  height: 278px;
 }
 
 .btn-download {

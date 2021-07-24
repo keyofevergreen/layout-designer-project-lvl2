@@ -551,6 +551,7 @@ main {
   font-size: 30px;
   line-height: 45px;
   text-transform: capitalize;
+  margin-bottom: 30px;
 }
 
 .news-author {
@@ -607,6 +608,11 @@ main {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-top: 16px;
+}
+
+.mobile-img {
+  width: 333px;
+  height: 278px;
 }
 
 .btn-download {
@@ -917,10 +923,11 @@ main {
     margin-right: 0;
   }
   .news-body h3 {
-    margin-top: 50px;
+    margin-top: 45px;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 16px;
     text-transform: capitalize;
   }
   .mobile-app__container {
@@ -934,6 +941,9 @@ main {
   }
   .mobile-app__container p {
     width: 100%;
+  }
+  .mobile-img {
+    margin: 0 auto;
   }
   .info {
     -webkit-box-orient: vertical;

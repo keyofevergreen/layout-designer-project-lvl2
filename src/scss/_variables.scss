@@ -88,6 +88,10 @@ $orange: #f89202;
   margin-bottom: 48px;
 }
 
+.mb-46 {
+  margin-bottom: 46px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
@@ -257,9 +261,13 @@ footer {
   justify-content: space-between;
 }
 
+.header-form {
+  margin-top: 50px;
+}
+
 .form__input {
   flex: 1 1 auto;
-
+  justify-content: space-between;
   input {
     box-sizing: border-box;
 
@@ -617,7 +625,7 @@ main {
 }
 
 .artist-header {
-  margin-top: 75px;
+  margin-top: 55px;
 }
 
 .btn-music {

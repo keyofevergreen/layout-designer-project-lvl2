@@ -59,14 +59,20 @@
     margin-top: 16px;
   }
 
+  .header-form {
+    margin-top: 48px;
+  }
+
   .form {
-    display: flex;
     flex-direction: column;
 
     max-width: 100%;
   }
 
   .form__input {
+    flex-direction: column;
+    gap: 24px;
+
     min-width: 100%;
 
     input {
@@ -147,7 +153,7 @@
   }
 
   .artist-header {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .player-buttons {

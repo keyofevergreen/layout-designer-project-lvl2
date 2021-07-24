@@ -76,8 +76,8 @@ $orange: #f89202;
   margin-bottom: 65px;
 }
 
-.mb-64 {
-  margin-bottom: 64px;
+.mb-63 {
+  margin-bottom: 63px;
 }
 
 .mb-50 {
@@ -401,11 +401,11 @@ main {
   }
 }
 
-.pricing__item-container { 
+.pricing__item-container {
   width: 319px;
 
   margin: 0 auto;
-  padding-top: 24px;
+  padding-top: 23px;
 }
 
 .pricing__value {
@@ -483,11 +483,12 @@ main {
   line-height: 24px;
 
   h3 {
+    margin-bottom: 30px;
+
     font-weight: normal;
     font-size: 30px;
     line-height: 45px;
     text-transform: capitalize;
-    margin-bottom: 30px;
   }
 }
 

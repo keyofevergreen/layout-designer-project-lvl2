@@ -297,7 +297,7 @@ footer a {
 }
 
 .header-form {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .form__input {
@@ -471,6 +471,7 @@ main {
 }
 
 .pricing__item-container {
+  padding-top: 25px;
   width: 319px;
   margin: 0 auto;
 }
@@ -479,6 +480,7 @@ main {
   font-size: 64px;
   line-height: 1em;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .pricing__value span {
@@ -508,6 +510,7 @@ main {
   width: 257px;
   border: 1px solid #fff;
   font-weight: 300;
+  font-size: 16px;
 }
 
 .pricing__footer {
@@ -819,7 +822,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 17px;
+    gap: 16px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -845,7 +848,7 @@ main {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
-    margin-top: 17px;
+    margin-top: 16px;
     line-height: 16px;
     text-align: left;
   }
@@ -946,7 +949,7 @@ main {
     width: 100%;
   }
   .artist-header {
-    margin-top: 30px;
+    margin-top: 27px;
   }
   .player-buttons {
     -webkit-box-orient: vertical;

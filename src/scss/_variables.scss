@@ -48,6 +48,10 @@ $orange: #f89202;
   margin-top: 50px;
 }
 
+.mt-75 {
+  margin-top: 75px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -148,7 +152,9 @@ $orange: #f89202;
   display: inline-flex;
   gap: 16px;
   align-items: center;
+
   line-height: 16.5px;
+
   img {
     width: 24px;
     height: 24px;
@@ -291,10 +297,10 @@ footer {
   padding: 5px 10px;
 
   border: none;
-  outline: none;
   border-radius: 50px;
 
   background: #3c3b3d;
+  outline: none;
 
   &::placeholder {
     color: #757575;
@@ -347,15 +353,13 @@ footer {
   flex: 1 1 auto;
   height: 57px;
 
-  border: 2px solid #34c176;
+  border: none;
 
   font: normal 13px 'Arial', sans-serif;
 
   background: #34c176;
 
   &:hover {
-    border: 2px solid #05aa52;
-
     background: #05aa52;
   }
 }
@@ -610,6 +614,10 @@ main {
     font-size: 16px;
     line-height: 24px;
   }
+}
+
+.artist-header {
+  margin-top: 75px;
 }
 
 .btn-music {

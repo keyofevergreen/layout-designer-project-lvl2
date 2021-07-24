@@ -26,6 +26,7 @@ html {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
+
   background: #08020d;
 }
 
@@ -58,6 +59,7 @@ h2 {
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
+
   text-align: center;
 }
 
@@ -83,6 +85,10 @@ h2 {
 
 .mt-50 {
   margin-top: 50px;
+}
+
+.mt-75 {
+  margin-top: 75px;
 }
 
 .mt-24 {
@@ -191,8 +197,9 @@ h2 {
   display: inline-flex;
   gap: 16px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
   line-height: 16.5px;
 }
 
@@ -207,8 +214,10 @@ h2 {
   right: 0;
   left: 0;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+
+  align-items: center;
+
   font-weight: 400;
   font-size: 11px;
   line-height: 12.89px;
@@ -241,7 +250,9 @@ footer a {
   gap: 24px;
   margin: 0;
   padding-left: 0;
+
   line-height: 1.6em;
+
   list-style: none;
 }
 
@@ -251,8 +262,10 @@ footer a {
 
 .header-bg {
   position: relative;
+
   padding-top: 200px;
   padding-bottom: 200px;
+
   background-image: url("../img/banner-header.png");
   background-position: center;
   background-size: cover;
@@ -260,8 +273,10 @@ footer a {
 
 .header-bg-artist {
   position: relative;
+
   padding-top: 200px;
   padding-bottom: 200px;
+
   background-image: url("../img/MortenHarket1.png");
   background-position: center;
   background-size: cover;
@@ -274,36 +289,42 @@ footer a {
 
 .sr-only {
   position: absolute;
+
   width: 1px;
   height: 1px;
   padding: 0;
   border: 0;
   overflow: hidden;
+
   white-space: nowrap;
 }
 
 .space-between {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
 }
 
 .form__input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .form__input input {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-width: 272px;
   min-height: 50px;
   padding-left: 20px;
   border: 2px solid #cacaca;
   border-radius: 3px;
+
   color: #fff;
   font-size: 18px;
+
   background-color: transparent;
   outline: none;
 }
@@ -334,15 +355,16 @@ footer a {
 
 .nav__search-form {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 308px;
   max-width: 570px;
   height: 25px;
   padding: 5px 10px;
   border: none;
-  outline: none;
   border-radius: 50px;
+
   background: #3c3b3d;
+  outline: none;
 }
 
 .nav__search-form::-webkit-input-placeholder {
@@ -371,13 +393,15 @@ footer a {
 
 .nav__item {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+
+  align-items: center;
   width: 100%;
 }
 
 .description {
   margin-top: 31px;
+
   font-size: 16px;
   line-height: 24px;
 }
@@ -387,13 +411,15 @@ footer a {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 20px 30px;
   border-radius: 5px;
+
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+
   cursor: pointer;
 }
 
@@ -402,27 +428,29 @@ footer a {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 24px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   max-width: 570px;
   margin-top: 17px;
 }
 
 .form__btn {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   height: 57px;
-  border: 2px solid #34c176;
+  border: none;
+
   font: normal 13px 'Arial', sans-serif;
+
   background: #34c176;
 }
 
 .form__btn:hover {
-  border: 2px solid #05aa52;
   background: #05aa52;
 }
 
@@ -432,13 +460,14 @@ main {
 
 .pricing {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .pricing__item {
@@ -450,6 +479,7 @@ main {
 
 .pricing__item h3 {
   margin-bottom: 200px;
+
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -493,6 +523,7 @@ main {
 .btn-checkout {
   width: 257px;
   border: 1px solid #fff;
+
   font-weight: 300;
 }
 
@@ -536,8 +567,10 @@ main {
 
 .news-author {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+
+  align-items: center;
+
   font-weight: 300;
   font-size: 12px;
   line-height: 1.6em;
@@ -548,7 +581,9 @@ main {
   width: 19px;
   height: 19px;
   margin-right: 16px;
+
   background: no-repeat top/cover url(../img/avatar.png);
+
   content: "";
 }
 
@@ -561,6 +596,7 @@ main {
   height: 21;
   padding: 16px 30px;
   border: 1px solid #fff;
+
   color: #cacaca;
   font-size: 12px;
   line-height: 1.6em;
@@ -580,38 +616,45 @@ main {
 
 .mobile-app__container p {
   width: 600px;
+
   font-size: 16px;
 }
 
 .mobile-app__container div {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+
+  align-self: center;
 }
 
 .btn-download {
   padding: 16px 40px;
   border-radius: 32px;
+
   font-weight: 400;
   font-size: 12.8px;
   line-height: 1.5em;
   text-transform: none;
+
   background: #95390c;
 }
 
 .info {
   gap: 40px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+
   text-align: start;
 }
 
 .info__elem {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 15px;
   width: 100%;
 }
@@ -632,8 +675,9 @@ main {
 .column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .gap-20 {
@@ -654,6 +698,7 @@ main {
 
 .footer-menu {
   gap: 16px;
+
   list-style: none;
 }
 
@@ -674,21 +719,28 @@ main {
   line-height: 24px;
 }
 
+.artist-header {
+  margin-top: 75px;
+}
+
 .btn-music {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   width: 200px;
   border: 0;
+
   font-weight: 400;
   font-size: 12.8px;
   line-height: 19.2px;
+
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .btn-music img {
@@ -715,25 +767,27 @@ main {
 
 .list-popular-tracks {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 25px 49px;
 }
 
 .popular-track {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+
+  align-items: center;
   width: 47%;
 }
 
 .track-info {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .text-small {
@@ -750,15 +804,16 @@ main {
 
 .music-list {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 25px 50px;
 }
 
 .music-list__elem {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .music-list__elem img {
@@ -783,164 +838,211 @@ main {
   body {
     min-width: 414px;
   }
+
   h1 {
     color: #fff;
     font: bold 30px/45px 'Roboto', sans-serif;
     text-transform: uppercase;
   }
+
   h2 {
     color: #fff;
     font: bold 18px/27px 'Roboto', sans-serif;
     text-transform: uppercase;
   }
+
   .header-bg-artist {
     padding-top: 200px;
   }
+
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 17px;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
     font-weight: 700;
   }
+
   .nav > div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .nav form {
     width: 100%;
   }
+
   .nav__item {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+
+    align-items: flex-start;
   }
+
   .nav__item-menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 3px;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0;
     margin-top: 17px;
-    line-height: 13px;
+
+    line-height: 16px;
     text-align: left;
   }
+
   .nav__search-form {
     width: 100%;
   }
+
   .description {
     margin-top: 16px;
   }
+
   .form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     max-width: 100%;
   }
+
   .form__input {
     min-width: 100%;
   }
+
   .form__input input {
     min-width: 100%;
   }
+
   .pricing {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 50px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .pricing__item {
     max-width: 374px;
   }
+
   .pricing__item h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
   }
+
   .news-item {
     padding-bottom: 0;
   }
+
   .news-item img {
     float: none;
     width: 374px;
     height: 186px;
     margin-right: 0;
   }
+
   .news-body h3 {
     margin-top: 50px;
+
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
   }
+
   .mobile-app__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     gap: 16px;
     -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
+
   .mobile-app__container p {
     width: 100%;
   }
+
   .info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 30px;
   }
+
   .info__elem {
     width: auto;
   }
+
   .footer-menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     width: 100%;
   }
+
   .footer-menu a {
     width: 100%;
   }
+
+  .artist-header {
+    margin-top: 40px;
+  }
+
   .player-buttons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .list-popular-tracks {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
     row-gap: 25px;
   }
+
   .popular-track {
     width: 100%;
   }
+
   .music-list__elem {
     width: 138px;
   }
+
   .music-list__elem img {
     width: 137px;
     height: 137px;

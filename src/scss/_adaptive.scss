@@ -42,10 +42,11 @@
 
   .nav__item-menu {
     flex-direction: column;
-    gap: 3px;
+    gap: 0;
 
     margin-top: 17px;
-    line-height: 13px;
+
+    line-height: 16px;
 
     text-align: left;
   }
@@ -143,6 +144,10 @@
     a {
       width: 100%;
     }
+  }
+
+  .artist-header {
+    margin-top: 40px;
   }
 
   .player-buttons {

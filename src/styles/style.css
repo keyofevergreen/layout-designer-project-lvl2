@@ -451,6 +451,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 43px;
 }
 
 .pricing__item {
@@ -468,16 +469,16 @@ main {
 }
 
 .pricing__item-container {
-  padding-top: 26px;
   width: 319px;
   margin: 0 auto;
+  padding-top: 24px;
 }
 
 .pricing__value {
+  margin-bottom: 38px;
   font-size: 64px;
   line-height: 1em;
   text-transform: uppercase;
-  margin-bottom: 38px;
 }
 
 .pricing__value span {
@@ -512,16 +513,17 @@ main {
 }
 
 .pricing__footer {
+  margin-bottom: 64px;
   font-weight: 300;
   font-size: 12.8px;
   line-height: 19.2px;
   text-align: center;
-  margin-bottom: 64px;
 }
 
 .pricing-description {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .float-left {
@@ -598,12 +600,13 @@ main {
 .mobile-app__container p {
   width: 600px;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .mobile-app__container div {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 16px;
 }
 
 .btn-download {
@@ -891,6 +894,7 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 43px;
   }
   .pricing__item {
     max-width: 374px;

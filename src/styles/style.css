@@ -454,6 +454,7 @@ main {
 }
 
 .pricing__item {
+  height: 615px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1rem;
@@ -516,7 +517,6 @@ main {
   font-size: 12.8px;
   line-height: 19.2px;
   text-align: center;
-  margin-bottom: 64px;
 }
 
 .pricing-description {
@@ -899,6 +899,9 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+  }
+  .pricing__item-container {
+    margin-top: 19px;
   }
   .news-item {
     padding-bottom: 0;

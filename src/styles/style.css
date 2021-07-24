@@ -360,17 +360,9 @@ footer a {
 }
 
 .description {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: flex-start;
-          flex-direction: flex-start;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 31px;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .btn {
@@ -826,16 +818,7 @@ main {
     width: 100%;
   }
   .description {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    width: 100%;
     margin-top: 16px;
-    font-size: 16px;
-    line-height: 24px;
   }
   .form {
     display: -webkit-box;

@@ -21,11 +21,11 @@
   padding: 0;
 }
 
-body {
+html {
   color: #cacaca;
   font-size: 18px;
-  line-height: 1.5em;
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
   background: #08020d;
 }
 
@@ -208,7 +208,7 @@ footer {
   padding-top: 3rem;
   padding-bottom: 2rem;
   color: #e0e0e0;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
@@ -245,7 +245,7 @@ footer a {
 
 .header-bg-artist {
   position: relative;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 223px;
   background-image: url("../img/MortenHarket1.png");
   background-position: center;
@@ -321,9 +321,10 @@ footer a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 248px;
+  max-width: 570px;
   height: 25px;
   padding: 5px 10px;
-  border: 0;
+  border: 2px solid #3c3b3d;
   border-radius: 50px;
   background: #3c3b3d;
 }
@@ -399,12 +400,13 @@ footer a {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   height: 57px;
-  border: 0;
+  border: 2px solid #34c176;
   font: normal 13px 'Arial', sans-serif;
   background: #34c176;
 }
 
 .form__btn:hover {
+  border: 2px solid #05aa52;
   background: #05aa52;
 }
 
@@ -435,6 +437,7 @@ main {
   margin-bottom: 200px;
   font-weight: 300;
   font-size: 24px;
+  line-height: 36px;
   text-transform: uppercase;
 }
 
@@ -513,6 +516,7 @@ main {
   font-weight: normal;
   font-size: 30px;
   line-height: 45px;
+  text-transform: capitalize;
 }
 
 .news-author {
@@ -573,7 +577,7 @@ main {
 .btn-download {
   padding: 16px 40px;
   border-radius: 32px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12.8px;
   line-height: 1.5em;
   text-transform: none;
@@ -660,7 +664,7 @@ main {
           justify-content: flex-start;
   width: 200px;
   border: 0;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12.8px;
   line-height: 19.2px;
   -webkit-appearance: none;
@@ -753,6 +757,7 @@ main {
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
+  text-transform: capitalize;
 }
 
 @media (max-width: 800px) {
@@ -774,10 +779,10 @@ main {
     text-transform: uppercase;
   }
   .header-bg {
-    padding-top: 250px;
+    padding-top: 200px;
   }
   .header-bg-artist {
-    padding-top: 225px;
+    padding-top: 200px;
   }
   .nav {
     -webkit-box-orient: vertical;
@@ -852,6 +857,7 @@ main {
   .pricing__item h3 {
     font-weight: 700;
     font-size: 16px;
+    line-height: 24px;
   }
   .news-item {
     padding-bottom: 0;
@@ -867,6 +873,7 @@ main {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    text-transform: capitalize;
   }
   .mobile-app__container {
     -webkit-box-orient: vertical;

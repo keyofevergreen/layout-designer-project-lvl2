@@ -165,7 +165,7 @@ footer {
 
   color: #e0e0e0;
 
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 
@@ -208,7 +208,7 @@ footer {
 .header-bg-artist {
   position: relative;
 
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 223px;
 
   background-image: url('../img/MortenHarket1.png');
@@ -273,10 +273,11 @@ footer {
     box-sizing: border-box;
 
     width: 248px;
+    max-width: 570px;
     height: 25px;
     padding: 5px 10px;
 
-    border: 0;
+    border: 2px solid #3c3b3d;
     border-radius: 50px;
 
     background: #3c3b3d;
@@ -297,6 +298,7 @@ footer {
 
 .description {
   margin-top: 31px;
+
   font-size: 16px;
   line-height: 24px;
 }
@@ -332,13 +334,15 @@ footer {
   flex: 1 1 auto;
   height: 57px;
 
-  border: 0;
+  border: 2px solid #34c176;
 
   font: normal 13px 'Arial', sans-serif;
 
   background: #34c176;
 
   &:hover {
+    border: 2px solid #05aa52;
+
     background: #05aa52;
   }
 }
@@ -367,6 +371,7 @@ main {
 
     font-weight: 300;
     font-size: 24px;
+    line-height: 36px;
 
     text-transform: uppercase;
   }
@@ -449,6 +454,7 @@ main {
     font-weight: normal;
     font-size: 30px;
     line-height: 45px;
+    text-transform: capitalize;
   }
 }
 
@@ -516,7 +522,7 @@ main {
 
   border-radius: 32px;
 
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12.8px;
   line-height: 1.5em;
   text-transform: none;
@@ -556,6 +562,7 @@ main {
 
 .info__elem-subscribe {
   gap: 24px;
+
   a {
     margin: auto 0;
   }
@@ -568,6 +575,7 @@ main {
 .footer-menu {
   gap: 16px;
   padding-top: 40px;
+
   list-style: none;
 }
 
@@ -595,7 +603,7 @@ main {
 
   border: 0;
 
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12.8px;
   line-height: 19.2px;
 
@@ -677,5 +685,6 @@ main {
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
+    text-transform: capitalize;
   }
 }

@@ -21,11 +21,11 @@
   }
 
   .header-bg {
-    padding-top: 250px;
+    padding-top: 200px;
   }
 
   .header-bg-artist {
-    padding-top: 225px;
+    padding-top: 200px;
   }
 
   .nav {
@@ -96,6 +96,7 @@
     h3 {
       font-weight: 700;
       font-size: 16px;
+      line-height: 24px;
     }
   }
 
@@ -119,6 +120,8 @@
       font-weight: normal;
       font-size: 16px;
       line-height: 24px;
+
+      text-transform: capitalize;
     }
   }
 
